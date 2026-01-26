@@ -32,8 +32,8 @@ export default function Header() {
               rel="noopener noreferrer"
               className="flex items-center space-x-2 bg-gray-900 text-white px-6 py-2.5 rounded-xl hover:bg-blue-600 hover:shadow-lg transition-all duration-300 text-sm font-bold"
             >
-              <Instagram size={16} />
-              <span>Naruči odmah</span>
+              <Instagram size={16} className="shrink-0" />
+              <span className="leading-none mt-0.5">Naruči odmah</span>
             </a>
           </div>
 
@@ -77,11 +77,11 @@ export default function Header() {
               href="https://www.instagram.com/velori.wear/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center space-x-3 bg-blue-600 text-white px-6 py-4 rounded-2xl font-bold active:scale-[0.98] transition-all"
+              className="flex items-center justify-center space-x-3 bg-blue-600 text-white px-6 py-4 rounded-2xl font-bold active:scale-[0.95] transition-all"
               onClick={() => setIsMenuOpen(false)}
             >
-              <Instagram size={20} />
-              <span>Naruči putem Instagrama</span>
+              <Instagram size={20} className="shrink-0" />
+              <span className="leading-none mt-1">Naruči odmah</span>
             </a>
           </div>
         </div>

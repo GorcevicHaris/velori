@@ -70,19 +70,18 @@ export default function Products() {
                   alt={product.name}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-
-                <div className="absolute bottom-4 left-4 right-4 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
+                <div className="absolute inset-x-4 bottom-6 translate-y-10 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none group-hover:pointer-events-auto z-20">
                   <a
                     href="https://www.instagram.com/velori.wear/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center space-x-2 bg-white text-gray-900 px-4 py-3 rounded-xl font-bold hover:bg-gray-50 transition-colors shadow-xl text-sm"
+                    className="flex items-center justify-center space-x-2 bg-white text-gray-900 px-4 py-3.5 rounded-xl font-bold hover:bg-gray-50 transition-colors shadow-2xl text-sm"
                   >
-                    <Instagram size={16} />
-                    <span>Naruči odmah</span>
+                    <Instagram size={16} className="shrink-0" />
+                    <span className="leading-none mt-0.5">Naruči odmah</span>
                   </a>
                 </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"></div>
               </div>
 
               <div className="space-y-2 px-2">

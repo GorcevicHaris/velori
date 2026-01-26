@@ -33,19 +33,19 @@ export default function Hero() {
                 href="https://www.instagram.com/velori.wear/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative flex items-center justify-center space-x-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-2xl hover:shadow-2xl active:scale-[0.98] transition-all duration-300 font-bold text-lg overflow-hidden"
+                className="group relative flex items-center justify-center space-x-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-2xl hover:shadow-2xl active:scale-[0.95] transition-all duration-300 font-bold text-lg overflow-hidden"
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-blue-800 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                <Instagram size={22} className="relative z-10" />
-                <span className="relative z-10">Naruči odmah</span>
-                <ArrowRight size={20} className="relative z-10 group-hover:translate-x-1 transition-transform" />
+                <Instagram size={22} className="relative z-10 shrink-0" />
+                <span className="relative z-10 leading-none mt-1">Naruči odmah</span>
+                <ArrowRight size={20} className="relative z-10 group-hover:translate-x-1 transition-transform shrink-0" />
               </a>
 
               <a
                 href="#products"
-                className="flex items-center justify-center space-x-2 bg-white text-gray-900 px-8 py-4 rounded-2xl hover:bg-gray-50 active:scale-[0.98] transition-all duration-300 font-bold text-lg border-2 border-gray-100 hover:border-gray-200"
+                className="flex items-center justify-center space-x-2 bg-white text-gray-900 px-8 py-4 rounded-2xl hover:bg-gray-50 active:scale-[0.95] transition-all duration-300 font-bold text-lg border-2 border-gray-100 hover:border-gray-200"
               >
-                <span>Pogledaj kolekciju</span>
+                <span className="leading-none mt-1">Pogledaj kolekciju</span>
               </a>
             </div>
 
