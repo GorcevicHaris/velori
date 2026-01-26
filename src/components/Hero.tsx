@@ -2,7 +2,7 @@ import { Instagram, ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-[100svh] flex items-center justify-center bg-gradient-to-br from-slate-50 via-white to-slate-100 pt-16 md:pt-20 overflow-hidden">
+    <section id="home" className="relative min-h-[100svh] flex items-center justify-center bg-gradient-to-br from-slate-50 via-white to-slate-100 pt-24 md:pt-32 overflow-hidden">
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-0 right-0 w-64 md:w-96 h-64 md:h-96 bg-gradient-to-bl from-blue-100 to-transparent rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 left-0 w-64 md:w-96 h-64 md:h-96 bg-gradient-to-tr from-slate-200 to-transparent rounded-full blur-3xl"></div>
@@ -17,9 +17,9 @@ export default function Hero() {
               </span>
             </div>
 
-            <h1 className="text-5xl xs:text-6xl sm:text-7xl lg:text-8xl font-black tracking-tight text-gray-950 leading-[0.9] md:leading-none">
+            <h1 className="text-[15vw] xs:text-7xl sm:text-8xl lg:text-9xl font-[950] tracking-tighter text-gray-950 leading-[0.8] md:leading-none">
               Pure
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-slate-800 to-slate-900">
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-800 via-blue-950 to-black">
                 Elegance
               </span>
             </h1>
