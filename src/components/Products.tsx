@@ -3,7 +3,7 @@ import { Instagram, Sparkles } from 'lucide-react';
 const products = [
   {
     id: 1,
-    name: 'Tamno siva',
+    name: 'Tamno plava',
     description: 'Vrhunska teget trenerka sa besprekornim krojem',
     image: '/whatsapp_image_2026-01-26_at_23.04.13.jpeg',
     color: 'from-blue-500 to-blue-600',
