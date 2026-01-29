@@ -9,17 +9,17 @@ export default function Hero() {
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-20 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
-          <div className="space-y-6 md:space-y-8 max-w-2xl">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 xl:gap-24 items-center">
+          <div className="space-y-6 md:space-y-8 max-w-2xl lg:max-w-xl xl:max-w-2xl">
             <div className="inline-block">
               <span className="text-[10px] md:text-xs font-bold tracking-[0.2em] text-blue-600 uppercase bg-blue-50/80 px-4 py-2 rounded-full border border-blue-100">
                 Premium Streetwear Kolekcija
               </span>
             </div>
 
-            <h1 className="text-[15vw] xs:text-7xl sm:text-8xl lg:text-9xl font-[950] tracking-tighter text-gray-950 leading-[0.8] md:leading-none">
+            <h1 className="text-[13vw] xs:text-7xl sm:text-8xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-[950] tracking-tighter text-gray-950 leading-[0.9] md:leading-none">
               Pure
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-800 via-blue-950 to-black">
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-800 via-blue-950 to-black mt-2 pb-4">
                 Elegance
               </span>
             </h1>
